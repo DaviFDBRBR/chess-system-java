@@ -11,7 +11,7 @@ public class ChessMatch {
 
 	/*
 	 * Devido ao desenvolvimento em camadas, não é possível manipular a matriz de tipo Piece no pacote/camada chess.
-	 * Então se faz um downcast dos objetos da superclasse Piece, para ChessPiece, que são classes passíveis de
+	 * Então se faz um downcast dos objetos da superclasse Piece, para ChessPiece, que é uma classe passível de
 	 * manipulação na camada chess. O programa (dentro da camada chess) apenas irá enxergar ChessPiece.
 	*/
 	public ChessPiece[][] getPieces() { 
