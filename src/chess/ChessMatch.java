@@ -141,7 +141,7 @@ public class ChessMatch {
 	}
 
 	private Color opponent(Color color) {
-		return (color == Color.WHITE) ? Color.BLACK : color.WHITE;
+		return (color == Color.WHITE) ? Color.BLACK : Color.WHITE;
 	}
 
 	private ChessPiece king(Color color) {
